@@ -1,0 +1,3 @@
+externalId: 'tr-create_asset_hierarchy'
+interval: '16 0 * * *'
+isPaused: false
