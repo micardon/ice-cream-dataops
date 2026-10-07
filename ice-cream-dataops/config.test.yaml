@@ -16,6 +16,8 @@ variables:
 
       data_foundation:
         data_developer_source_id: ${DATA_DEVELOPER_SOURCE_ID}
+        icapi_extractors_source_id: ${ICAPI_EXTRACTORS_SOURCE_ID}
+        data_pipeline_oee_source_id: ${DATA_PIPELINE_OEE_SOURCE_ID}
 
       ice_cream_api:
         icapi_extractors_source_id: ${ICAPI_EXTRACTORS_SOURCE_ID}
