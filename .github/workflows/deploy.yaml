@@ -54,7 +54,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Verify and Update Toolkit Authorization
-        run: printf '\nn\n' | cdf auth verify
+        run: cdf auth verify --no-prompt
       - name: Build Toolkit Configurations
         run: cdf build --env=${{ matrix.environment }}
       - name: Deploy Toolkit Configurations
